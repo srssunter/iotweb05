@@ -1,0 +1,880 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Bootstrap Icons -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+/>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sansita+Swashed:wght@300..900&display=swap"
+  rel="stylesheet"
+/>
+
+
+  </head>
+
+  <body
+    class="m-0 box-border bg-[#eeeeee] font-['Inter'] text-[#222]"
+  >
+    <div
+      class="m-auto w-full max-w-[1100px] bg-white"
+    >
+
+  <!-- =====================================================
+       HERO
+  ====================================================== -->
+
+  <section
+    class="relative h-[600px] overflow-hidden"
+  >
+    <img
+      class="absolute z-[1] h-full w-full scale-x-[-1] object-cover"
+      src="./images/b1.png"
+      alt="Coffee Shop"
+    />
+
+    <div
+      class="absolute inset-0 z-[2] bg-[rgba(0,0,0,0.08)]"
+    ></div>
+
+    <!-- NAVBAR -->
+
+    <nav
+      class="absolute left-0 top-0 z-[5] flex w-full items-center px-[60px] py-[30px] max-[700px]:p-[20px]"
+    >
+      <div class="logo">
+        <img
+          class="w-[75px]"
+          src="./images/iconsw.png"
+          alt="Keithston Logo"
+        />
+      </div>
+
+      <div
+        class="ml-[90px] flex gap-[28px] max-[700px]:ml-[30px] max-[700px]:gap-[12px]"
+      >
+        <a
+          href="#"
+          class="text-[16px] font-[600] text-white no-underline transition-[0.2s] hover:text-[#e7b78a] max-[700px]:text-[10px]"
+        >
+          Home
+        </a>
+
+        <a
+          href="#"
+          class="text-[16px] font-[600] text-white no-underline transition-[0.2s] hover:text-[#e7b78a] max-[700px]:text-[10px]"
+        >
+          Blog
+        </a>
+
+        <a
+          href="#"
+          class="text-[16px] font-[600] text-white no-underline transition-[0.2s] hover:text-[#e7b78a] max-[700px]:text-[10px]"
+        >
+          Contact Us
+        </a>
+
+        <a
+          href="#"
+          class="text-[16px] font-[600] text-white no-underline transition-[0.2s] hover:text-[#e7b78a] max-[700px]:text-[10px]"
+        >
+          Services
+        </a>
+      </div>
+    </nav>
+
+    <!-- HERO TEXT -->
+
+    <div
+      class="absolute left-[70px] top-[190px] z-[4] text-white max-[700px]:left-[30px] max-[700px]:top-[170px]"
+    >
+      <p
+        class="mb-[10px] text-[17px] font-[600] text-[#e6b17c]"
+      >
+        Delicious Cafe
+      </p>
+
+      <h1
+        class="mb-[35px] font-['Sansita_Swashed'] text-[55px] leading-[1.15] max-[700px]:text-[40px]"
+      >
+        Sweet Treats,<br />
+        Perfect Eats
+      </h1>
+
+      <div
+        class="flex items-center gap-[25px]"
+      >
+        <a
+          href="#"
+          class="inline-block rounded-[4px] bg-[#a94327] px-[25px] py-[11px] text-[14px] text-white no-underline transition-[0.2s] hover:bg-[#82321e]"
+        >
+          Shop Now
+        </a>
+
+        <a
+          href="#"
+          class="font-[600] text-[#e6b17c] no-underline"
+        >
+          Learn More
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       TOP PRODUCTS
+  ====================================================== -->
+
+  <section
+    class="px-[60px] py-[55px] max-[700px]:px-[25px] max-[700px]:py-[40px]"
+  >
+    <h2
+      class="mb-[35px] text-center font-['Sansita_Swashed'] text-[30px]"
+    >
+      Top Products
+    </h2>
+
+    <div
+      class="grid grid-cols-3 gap-[8px] max-[700px]:grid-cols-2"
+    >
+
+      <!-- PRODUCT 1 -->
+
+      <div
+        class="overflow-hidden rounded-[4px] bg-[#141414] text-white"
+      >
+        <img
+          class="inline h-[200px] w-full rounded-[20%] object-cover"
+          src="./images/wholebread1.png"
+          alt="Whole Grain Bread"
+        />
+
+        <div class="p-[10px]">
+          <div
+            class="mb-[10px] flex items-center justify-between text-[12px]"
+          >
+            <span>40 Baht</span>
+
+            <i class="bi bi-info-circle text-[13px]"></i>
+          </div>
+
+          <div
+            class="flex items-center justify-between text-[11px]"
+          >
+            <span>
+              Whole Grain<br />
+              Bread
+            </span>
+
+            <button
+              class="cursor-pointer rounded-[2px] border-0 bg-[#a94327] px-[10px] py-[5px] text-white"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- PRODUCT 2 -->
+
+      <div
+        class="overflow-hidden rounded-[4px] bg-[#141414] text-white"
+      >
+        <img
+          class="inline h-[200px] w-full rounded-[20%] object-cover"
+          src="./images/wholebread2.png"
+          alt="Whole Grain Bread"
+        />
+
+        <div class="p-[10px]">
+          <div
+            class="mb-[10px] flex items-center justify-between text-[12px]"
+          >
+            <span>40 Baht</span>
+
+            <i class="bi bi-info-circle text-[13px]"></i>
+          </div>
+
+          <div
+            class="flex items-center justify-between text-[11px]"
+          >
+            <span>
+              Whole Grain<br />
+              Bread
+            </span>
+
+            <button
+              class="cursor-pointer rounded-[2px] border-0 bg-[#a94327] px-[10px] py-[5px] text-white"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- PRODUCT 3 -->
+
+      <div
+        class="overflow-hidden rounded-[4px] bg-[#141414] text-white"
+      >
+        <img
+          class="inline h-[200px] w-full rounded-[20%] object-cover"
+          src="./images/wholebread3.png"
+          alt="Whole Grain Bread"
+        />
+
+        <div class="p-[10px]">
+          <div
+            class="mb-[10px] flex items-center justify-between text-[12px]"
+          >
+            <span>40 Baht</span>
+
+            <i class="bi bi-info-circle text-[13px]"></i>
+          </div>
+
+          <div
+            class="flex items-center justify-between text-[11px]"
+          >
+            <span>
+              Whole Grain<br />
+              Bread
+            </span>
+
+            <button
+              class="cursor-pointer rounded-[2px] border-0 bg-[#a94327] px-[10px] py-[5px] text-white"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- PRODUCT 4 -->
+
+      <div
+        class="overflow-hidden rounded-[4px] bg-[#141414] text-white"
+      >
+        <img
+          class="inline h-[200px] w-full rounded-[20%] object-cover"
+          src="./images/wholebread4.png"
+          alt="Whole Grain Bread"
+        />
+
+        <div class="p-[10px]">
+          <div
+            class="mb-[10px] flex items-center justify-between text-[12px]"
+          >
+            <span>40 Baht</span>
+
+            <i class="bi bi-info-circle text-[13px]"></i>
+          </div>
+
+          <div
+            class="flex items-center justify-between text-[11px]"
+          >
+            <span>
+              Whole Grain<br />
+              Bread
+            </span>
+
+            <button
+              class="cursor-pointer rounded-[2px] border-0 bg-[#a94327] px-[10px] py-[5px] text-white"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- PRODUCT 5 -->
+
+      <div
+        class="overflow-hidden rounded-[4px] bg-[#141414] text-white"
+      >
+        <img
+          class="inline h-[200px] w-full rounded-[20%] object-cover"
+          src="./images/wholebread5.png"
+          alt="Whole Grain Bread"
+        />
+
+        <div class="p-[10px]">
+          <div
+            class="mb-[10px] flex items-center justify-between text-[12px]"
+          >
+            <span>40 Baht</span>
+
+            <i class="bi bi-info-circle text-[13px]"></i>
+          </div>
+
+          <div
+            class="flex items-center justify-between text-[11px]"
+          >
+            <span>
+              Whole Grain<br />
+              Bread
+            </span>
+
+            <button
+              class="cursor-pointer rounded-[2px] border-0 bg-[#a94327] px-[10px] py-[5px] text-white"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- PRODUCT 6 -->
+
+      <div
+        class="overflow-hidden rounded-[4px] bg-[#141414] text-white"
+      >
+        <img
+          class="inline h-[200px] w-full rounded-[20%] object-cover"
+          src="./images/wholebread6.png"
+          alt="Whole Grain Bread"
+        />
+
+        <div class="p-[10px]">
+          <div
+            class="mb-[10px] flex items-center justify-between text-[12px]"
+          >
+            <span>40 Baht</span>
+
+            <i class="bi bi-info-circle text-[13px]"></i>
+          </div>
+
+          <div
+            class="flex items-center justify-between text-[11px]"
+          >
+            <span>
+              Whole Grain<br />
+              Bread
+            </span>
+
+            <button
+              class="cursor-pointer rounded-[2px] border-0 bg-[#a94327] px-[10px] py-[5px] text-white"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       PROMOTION
+  ====================================================== -->
+
+  <section
+    class="relative my-[20px] h-[190px] overflow-hidden"
+  >
+    <img
+      class="h-full w-full object-cover"
+      src="./images/b3.png"
+      alt="Promotion"
+    />
+
+    <div
+      class="absolute left-1/2 top-[25px] w-[400px] -translate-x-1/2 text-center"
+    >
+      <h2
+        class="mb-[5px] font-['Sansita_Swashed'] text-[22px] text-[#a94327]"
+      >
+        20% Off Your<br />
+        First Order
+      </h2>
+
+      <p
+        class="mb-[10px] text-[10px] leading-[1.4] text-[#777]"
+      >
+        Lorem ipsum dolor sit amet<br />
+        consectetur adipisicing elit.<br />
+        Nesciunt rem adit labore unde
+      </p>
+
+      <a
+        href="#"
+        class="inline-block rounded-[4px] bg-[#a94327] px-[20px] py-[7px] text-[10px] text-white no-underline transition-[0.2s] hover:bg-[#82321e]"
+      >
+        Learn More
+      </a>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       EXPLORE MORE
+  ====================================================== -->
+
+  <section
+    class="px-[60px] py-[50px] max-[700px]:px-[25px] max-[700px]:py-[40px]"
+  >
+    <h2
+      class="mb-[35px] text-center font-['Sansita_Swashed'] text-[30px]"
+    >
+      Explore More
+    </h2>
+
+    <!-- CATEGORY -->
+
+    <div
+      class="mb-[35px] flex justify-center gap-[25px] border-b border-[#ddd]"
+    >
+      <a
+        href="#"
+        class="border-b-[2px] border-[#a94327] pb-[8px] text-[11px] text-[#a94327] no-underline"
+      >
+        Cake
+      </a>
+
+      <a
+        href="#"
+        class="pb-[8px] text-[11px] text-[#444] no-underline"
+      >
+        Muffins
+      </a>
+
+      <a
+        href="#"
+        class="pb-[8px] text-[11px] text-[#444] no-underline"
+      >
+        Croissant
+      </a>
+
+      <a
+        href="#"
+        class="pb-[8px] text-[11px] text-[#444] no-underline"
+      >
+        Bread
+      </a>
+
+      <a
+        href="#"
+        class="pb-[8px] text-[11px] text-[#444] no-underline"
+      >
+        Tart
+      </a>
+
+      <a
+        href="#"
+        class="pb-[8px] text-[11px] text-[#444] no-underline"
+      >
+        Favorite
+      </a>
+    </div>
+
+    <!-- EXPLORE GRID -->
+
+    <div
+      class="grid grid-cols-3 gap-[7px] max-[700px]:grid-cols-2"
+    >
+      <img
+        class="h-[180px] w-full rounded-[3px] object-cover"
+        src="./images/p1.png"
+        alt=""
+      />
+
+      <img
+        class="h-[180px] w-full rounded-[3px] object-cover"
+        src="./images/p2.png"
+        alt=""
+      />
+
+      <img
+        class="h-[180px] w-full rounded-[3px] object-cover"
+        src="./images/p3.png"
+        alt=""
+      />
+
+      <img
+        class="h-[180px] w-full rounded-[3px] object-cover"
+        src="./images/p4.png"
+        alt=""
+      />
+
+      <img
+        class="h-[180px] w-full rounded-[3px] object-cover"
+        src="./images/p5.png"
+        alt=""
+      />
+
+      <img
+        class="h-[180px] w-full rounded-[3px] object-cover"
+        src="./images/p6.png"
+        alt=""
+      />
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       ABOUT US
+  ====================================================== -->
+
+  <section
+    class="relative m-0 h-[180px] overflow-hidden"
+  >
+    <img
+      class="h-full w-full object-cover"
+      src="./images/b4.png"
+      alt="About Us"
+    />
+
+    <div
+      class="absolute left-1/2 top-[25px] w-[400px] -translate-x-1/2 text-center text-white"
+    >
+      <h2
+        class="mb-[8px] font-['Sansita_Swashed'] text-[20px]"
+      >
+        About us
+      </h2>
+
+      <p
+        class="mb-[10px] text-[10px] leading-[1.4]"
+      >
+        Lorem ipsum dolor sit amet<br />
+        consectetur adipisicing elit.<br />
+        Nesciunt rem odit labore unde<br />
+        nemo omnis sequi.
+      </p>
+
+      <a
+        href="#"
+        class="inline-block rounded-[4px] bg-[#a94327] px-[20px] py-[7px] text-[10px] text-white no-underline transition-[0.2s] hover:bg-[#82321e]"
+      >
+        Read More
+      </a>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       FEATURED TREATS
+  ====================================================== -->
+
+  <section
+    class="px-[60px] py-[50px] max-[700px]:px-[25px] max-[700px]:py-[40px]"
+  >
+    <h2
+      class="mb-[35px] text-center font-['Sansita_Swashed'] text-[30px]"
+    >
+      Featured Treats
+    </h2>
+
+    <div
+      class="grid grid-cols-3 gap-[7px] max-[700px]:grid-cols-1"
+    >
+
+      <!-- ITEM 1 -->
+
+      <div>
+        <img
+          class="h-[180px] w-full rounded-[3px] object-cover"
+          src="./images/p7.png"
+          alt="Puff Pastry"
+        />
+
+        <div
+          class="flex justify-between px-[5px] py-[8px] text-[13px]"
+        >
+          <strong>Puff Pastry</strong>
+
+          <span>8 Baht</span>
+        </div>
+      </div>
+
+
+      <!-- ITEM 2 -->
+
+      <div>
+        <img
+          class="h-[180px] w-full rounded-[3px] object-cover"
+          src="./images/p8.png"
+          alt="Doughnuts"
+        />
+
+        <div
+          class="flex justify-between px-[5px] py-[8px] text-[13px]"
+        >
+          <strong>Doughnuts</strong>
+
+          <span>8 Baht</span>
+        </div>
+      </div>
+
+
+      <!-- ITEM 3 -->
+
+      <div>
+        <img
+          class="h-[180px] w-full rounded-[3px] object-cover"
+          src="./images/p9.png"
+          alt="Brownies"
+        />
+
+        <div
+          class="flex justify-between px-[5px] py-[8px] text-[13px]"
+        >
+          <strong>Brownies</strong>
+
+          <span>8 Baht</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer
+    class="bg-[linear-gradient(rgba(0,0,0,0.72),rgba(0,0,0,0.72)),url('./images/footer-bg.png')] bg-cover bg-center px-[60px] pb-[20px] pt-[35px] text-white max-[700px]:px-[25px] max-[700px]:py-[30px]"
+  >
+
+    <!-- FOOTER TOP -->
+
+    <div
+      class="flex items-center justify-between"
+    >
+      <!-- LOGO -->
+
+      <div>
+        <img
+          class="w-[150px]"
+          src="./images/iconsw.png"
+          alt="Keithston"
+        />
+      </div>
+
+      <!-- SOCIAL -->
+
+      <div
+        class="flex items-center gap-[12px]"
+      >
+        <span
+          class="mr-[5px] text-[10px] text-[#dcae79]"
+        >
+          Follow us
+        </span>
+
+        <a
+          href="#"
+          class="text-[20px] text-[#E9BD8C] no-underline"
+        >
+          <i class="bi bi-facebook"></i>
+        </a>
+
+        <a
+          href="#"
+          class="text-[20px] text-[#E9BD8C] no-underline"
+        >
+          <i class="bi bi-pinterest"></i>
+        </a>
+
+        <a
+          href="#"
+          class="text-[20px] text-[#E9BD8C] no-underline"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <a
+          href="#"
+          class="text-[20px] text-[#E9BD8C] no-underline"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- LINE -->
+
+    <div
+      class="my-[15px] mb-[20px] h-[1px] bg-[rgba(255,255,255,0.3)]"
+    ></div>
+
+
+    <!-- FOOTER CONTENT -->
+
+    <div
+      class="grid grid-cols-[1fr_1fr_1.5fr] gap-[40px] max-[700px]:grid-cols-2"
+    >
+
+      <!-- ABOUT -->
+
+      <div>
+        <h3
+          class="mb-[10px] text-[14px] text-[#dcae79]"
+        >
+          About Us
+        </h3>
+
+        <p
+          class="block text-[9px] leading-[1.8] text-white"
+        >
+          (02) 807-4500
+        </p>
+
+        <p
+          class="block text-[9px] leading-[1.8] text-white"
+        >
+          6819M10022@sau.ac.th
+        </p>
+
+        <p
+          class="block text-[9px] leading-[1.8] text-white"
+        >
+          19/1 Phetkasem Road
+        </p>
+
+        <p
+          class="block text-[9px] leading-[1.8] text-white"
+        >
+          Nongkham Bangkok
+        </p>
+
+        <p
+          class="block text-[9px] leading-[1.8] text-white"
+        >
+          10160
+        </p>
+      </div>
+
+
+      <!-- EXPLORE -->
+
+      <div>
+        <h3
+          class="mb-[10px] text-[14px] text-[#dcae79]"
+        >
+          Explore
+        </h3>
+
+        <a
+          href="#"
+          class="block text-[9px] leading-[1.8] text-white no-underline"
+        >
+          Home
+        </a>
+
+        <a
+          href="#"
+          class="block text-[9px] leading-[1.8] text-white no-underline"
+        >
+          Blog
+        </a>
+
+        <a
+          href="#"
+          class="block text-[9px] leading-[1.8] text-white no-underline"
+        >
+          Contact us
+        </a>
+
+        <a
+          href="#"
+          class="block text-[9px] leading-[1.8] text-white no-underline"
+        >
+          Services
+        </a>
+      </div>
+
+
+      <!-- NEWS -->
+
+      <div>
+        <h3
+          class="mb-[10px] text-[14px] text-[#dcae79]"
+        >
+          Recent News
+        </h3>
+
+        <div
+          class="mb-[8px] flex gap-[8px]"
+        >
+          <img
+            class="h-[30px] w-[45px] object-cover"
+            src="./images/last2.png"
+            alt=""
+          />
+
+          <div>
+            <small
+              class="text-[7px] text-[#aaa]"
+            >
+              June 14,2025
+            </small>
+
+            <p
+              class="block text-[9px] leading-[1.2] text-white"
+            >
+              Puff pastry bliss.
+            </p>
+          </div>
+        </div>
+
+
+        <div
+          class="mb-[8px] flex gap-[8px]"
+        >
+          <img
+            class="h-[30px] w-[45px] object-cover"
+            src="./images/last1.png"
+            alt=""
+          />
+
+          <div>
+            <small
+              class="text-[7px] text-[#aaa]"
+            >
+              June 14,2025
+            </small>
+
+            <p
+              class="block text-[9px] leading-[1.2] text-white"
+            >
+              Puff pastry bliss.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- COPYRIGHT -->
+
+    <div
+      class="mt-[20px] text-center text-[8px] text-[#888]"
+    >
+      © 2025 Bake House. All rights reserved
+    </div>
+
+  </footer>
+</div>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+   <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #91ffb2;
+        font-family: 'Roboto Mono';
+      }
+      .main{
+        display: flex;
+        margin: 80px 150px;
+        justify-content: center;
+        gap: 50px;
+      }
+      .title{
+        font-size: 5.5rem;
+        font-weight: bold;        
+        display: block;
+      }
+      .main p{
+        width: 550px;
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+      }
+      button{
+        background-color: #333333;
+        color: #ffffff;
+        padding: 15px 40px;
+        border-radius: 100px;
+        cursor: pointer;
+      }
+      button:hover{
+          background-color: #111111;
+      }
+      .pic-1-2 {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .pic-1-2 img{
+        width: 500px;
+      }
+      .sec-center img , .sec-right img{
+          height: 763px;
+      }
+      .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ส่วน mian -->
+    <div class="main">
+      <!-- sec-left -->
+      <div class="sec-left">
+        <span class="title">My Web Design by</span>
+        <span class="title">HTML+CSS+TailwindCSS</span>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod,
+          fugiat! Facere ducimus laboriosam accusamus natus. Officia recusandae
+          iure quis est!
+        </p>
+        <button>Follow Me</button>
+        <div class="pic-1-2">
+          <a href="./page01.html"><img src="./images/pic1.png" alt="pic1" /></a>
+          <a href="./page02.html"><img src="./images/pic2.png" alt="pic2" /></a>
+        </div>
+      </div>
+ 
+      <!-- sec-center -->
+      <div class="sec-center">
+        <a href="./page03.html"><img src="./images/pic3.png" alt="pic3" /></a>
+      </div>
+ 
+      <!-- sec-right -->
+      <div class="sec-right">
+        <a href="./page04.html"><img src="./images/pic4.png" alt="pic4" /></a    >
+      </div>
+    </div>
+ 
+    <!-- ส่วน footer -->
+    <div class="footer">
+        <span>Created by NinniN SAU</span>
+        <span>Copyright © 2026 wow wow wow</span>
+    </div>
+  </body>
+</html>
